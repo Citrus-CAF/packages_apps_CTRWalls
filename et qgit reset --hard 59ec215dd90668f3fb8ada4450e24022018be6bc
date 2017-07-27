@@ -1,0 +1,389 @@
+[33mcommit e0bbb9d685e1ea3e7f74b40a72ed0e6273e26b02[m
+Author: Adarsh-MR <adarshmr1998@gmail.com>
+Date:   Fri Jul 28 17:39:49 2017 +0000
+
+    Walls: Add thumbnails for faster fetch
+    
+    Signed-off-by: Adarsh-MR <adarshmr1998@gmail.com>
+
+[33mcommit 59ec215dd90668f3fb8ada4450e24022018be6bc[m
+Author: Adarsh-MR <adarshmr1998@gmail.com>
+Date:   Thu Jul 27 19:40:50 2017 +0000
+
+    CTRWalls: Fetch Wallpapers from Online
+    
+    Signed-off-by: Adarsh-MR <adarshmr1998@gmail.com>
+
+[33mcommit 6b19967c98ff302f09491807bcd4ece3145b4c15[m
+Author: Adarsh-MR <adarshmr1998@gmail.com>
+Date:   Fri Jul 28 17:39:01 2017 +0000
+
+    CTRWalls: use sdcard for download
+    Signed-off-by: Adarsh-MR <adarshmr1998@gmail.com>
+
+[33mcommit 00dcbb6de41531a6fc8cb02fbb4fb3b4ac0f801a[m
+Author: Adarsh-MR <adarshmr1998@gmail.com>
+Date:   Fri Jul 28 11:42:40 2017 +0000
+
+    CTRWalls: fix fc
+    
+    Signed-off-by: Adarsh-MR <adarshmr1998@gmail.com>
+
+[33mcommit 34e59c42e2dd37a89f2c2f9fffcc28901c34ab4b[m
+Author: Adarsh-MR <adarshmr1998@gmail.com>
+Date:   Fri Jul 28 08:59:02 2017 +0000
+
+    Refractor into CTRWalls
+    
+    Signed-off-by: Adarsh-MR <adarshmr1998@gmail.com>
+
+[33mcommit 24c640bd108832eca8ef4d76b7f31bee0727539f[m
+Author: tobitege <tobiasteschner@googlemail.com>
+Date:   Tue Apr 14 07:05:48 2015 +0200
+
+    Fix exception in WallpaperActivity due to setActionBar() call
+    
+    Change-Id: I1e7cdf413b131e0b7172c4d0fee545b5449d3ff1
+
+[33mcommit e80ca041dd89caa914a2a5bcf3e22ed1b15ec06a[m
+Author: tobitege <tobiasteschner@googlemail.com>
+Date:   Thu Apr 9 16:01:34 2015 +0200
+
+    Fix wrong theme specifier (final).
+    
+    Change-Id: Id0145997e28f169d1aead158101d84485112ccbd
+
+[33mcommit facfaa36e8e6b934a17f1579dc6d38a597f54444[m
+Author: Tobias <tobitege@review.blissroms.com>
+Date:   Thu Apr 9 06:56:19 2015 -0700
+
+    Revert "Fix changed theme specifier back to Theme.Bliss": compile error
+    
+    This reverts commit f0136ec8307d4feeabf6bba2bdd07e12fa8f158e.
+    
+    Change-Id: I461e70bb77e43e1dd63ece01d6f45366e6f96bba
+
+[33mcommit f0136ec8307d4feeabf6bba2bdd07e12fa8f158e[m
+Author: tobitege <tobiasteschner@googlemail.com>
+Date:   Thu Apr 9 15:49:15 2015 +0200
+
+    Fix changed theme specifier back to Theme.Bliss
+    
+    Change-Id: Ic2a073ae3523b4130aab72e402141d393f9c0b37
+
+[33mcommit 9a3e3c5712bf127f515253114288a8a0f31dad5b[m
+Author: tobitege <tobiasteschner@googlemail.com>
+Date:   Wed Apr 8 20:07:41 2015 +0200
+
+    Change manifest folder to BlissPapers.
+    
+    Change-Id: Ie5fd23f8ed81aa01b2857b32b2579751703c9603
+
+[33mcommit adeec8b769df85f4e6958766c023656fdddff1e9[m
+Author: tobitege <tobiasteschner@googlemail.com>
+Date:   Sun Apr 5 09:23:19 2015 +0200
+
+    Fix BlissPapers for build
+    
+    Added missing build script.
+    Fixed xml headers.
+    Changed manifest link to blissroms server.
+    Commented out setActionBar() in Preview.
+    
+    Thanks to electrikjesus for new wallpapers, added to manifest.
+    
+    Change-Id: I94d7b1fd1633de27d2bf2b579608289ab637dc5e
+
+[33mcommit 91495cf2dda36ebb4449d4ed4afdeef5c118b68e[m
+Author: Patrick <pjgraber03@gmail.com>
+Date:   Mon Jan 26 01:35:41 2015 +0100
+
+    Add new stuff in
+    
+    Change-Id: I5265ab3a06f6a24f3551708c2d0f3ff52084c727
+
+[33mcommit d672e524b60787ee36e0ea4659c9ab8bcea4347d[m
+Author: Patrick <pjgraber03@gmail.com>
+Date:   Mon Jan 26 01:24:04 2015 +0100
+
+    Remove old junk
+    
+    Change-Id: I5685f33106f65e316dd77ab97cae332b56464565
+
+[33mcommit 426a2183f9e3041944c52bd0e7e3a2c99bbe451a[m
+Author: death2all110 <leeper.blake@gmail.com>
+Date:   Sun Jan 25 17:08:52 2015 -0600
+
+    BlissPop Wallpapers for the BlissPop ROM by Team Bliss.
+    http://blissroms.com
+    
+    Change-Id: I4dbbca90a44cc0a25dba0b34b2e029696f3b7022
+    Signed-off-by: death2all110 <leeper.blake@gmail.com>
+
+[33mcommit 313ccff81caaea420a05633cae62bc7ec60a6e94[m
+Author: Patrick <pjgraber03@gmail.com>
+Date:   Mon Jan 12 07:51:57 2015 +0100
+
+    added gitreview to connect to gerrit
+    
+    Change-Id: Ie76bd62fcc14cbfeb3eadbd118d79ab155b264d4
+
+[33mcommit 72f6d758d5d450e5fdc0b93e0a2ed696524721aa[m
+Author: Skyliner33v <Skyliner33v@gmail.com>
+Date:   Sat Oct 25 17:42:04 2014 -0700
+
+    Resize to 960x800
+
+[33mcommit bc1664b3d87705cd4d4bdd1fffe7403726faffd7[m
+Author: Skyliner33v <Skyliner33v@gmail.com>
+Date:   Thu Oct 23 12:23:08 2014 -0700
+
+    Bye Bye Beanstalk.  Hello Bliss
+    
+    Updated Bliss wallpapers.  Got rid of remaining Beanstalk wallpapers and
+    values.  Updated translations to Bliss
+
+[33mcommit b08510c91498345a443d51fa9af9f44e363df969[m
+Author: Shaun <shaunsibu@gmail.com>
+Date:   Sun Oct 19 16:04:54 2014 -0600
+
+    More Blissfulness
+    
+    Change-Id: I40cb8307acdb3d3b07cba5409e0cf199583aa275
+
+[33mcommit 022d3f58e3a824341e1b365437e467b6dd853a66[m
+Author: Shaun <shaunsibu@gmail.com>
+Date:   Sun Oct 19 13:58:22 2014 -0600
+
+    Change some Bean to Bliss papers
+    
+    Change-Id: Ie6a3d50aaa1ac5f6d28ebf4f4971fe0558dc4df2
+
+[33mcommit d1fd1825059543fc322e03ffd71d45b1a244f89d[m
+Author: Shaun <shaunsibu@gmail.com>
+Date:   Wed Oct 15 15:35:33 2014 -0600
+
+    Change to Bliss
+    
+    Change-Id: Iebb9fbfec78f93fed5d77f510835ef554a3ce00e
+
+[33mcommit 3f6840675fb7718d142e3762e276f9851ef816c0[m
+Author: Shaun <shaunsibu@gmail.com>
+Date:   Tue Oct 14 22:56:11 2014 -0600
+
+    Switch all to Bliss.
+    
+    Change-Id: I5f72730e1cb1e0cadc7e1e0c8f21421b7d0af08e
+
+[33mcommit 05cce678bb72da164539aa3d8535593fae2943ea[m
+Author: Shaun <shaunsibu@gmail.com>
+Date:   Tue Oct 14 22:40:09 2014 -0600
+
+    More Bliss
+    
+    Change-Id: If5976f4e1e3e291763e395ae50e44cd35a4c22cf
+
+[33mcommit f4058ab0ee7e547e6f17b7d89305d70e188d251d[m
+Author: Shaun <shaunsibu@gmail.com>
+Date:   Tue Oct 14 22:35:39 2014 -0600
+
+    Rename to BlissPapers
+    
+    Change-Id: I968b02b1da3c375579feeb27eb194a036f8b86f3
+
+[33mcommit 2cbea8f20190fb241738b71f1559600cf5a4b94d[m
+Author: Pawit Pornkitprasan <p.pawit@gmail.com>
+Date:   Fri Sep 19 10:29:06 2014 +0700
+
+    CMWallpaper: respect suggested size
+    
+    See "WallpaperCropper: respect max wallpaper width"
+    at http://review.cyanogenmod.org/73504
+    
+    Change-Id: I2987c34098b8fc0ca4556d179492edc2fd57d5b4
+
+[33mcommit 823d29bdddd13f7a4ae00e06d42f5a82eac88fb6[m
+Author: scott <scott@ubuntu>
+Date:   Sat Sep 13 18:06:29 2014 -0400
+
+    fix
+    
+    Change-Id: Ib825004f824cb84714eea957c2bf5a5bdbc31a88
+    Signed-off-by: scott <scott@ubuntu>
+
+[33mcommit 2809bf1f619974ded9dc375de8a60e7e4c4585f8[m
+Author: Danesh M <daneshm90@gmail.com>
+Date:   Thu May 22 15:34:40 2014 -0700
+
+    CMWallpapers : Auto-scale/crop wallpapers
+    
+    Change-Id: Ic7517fe472df02dca8a3287f5d51d72544ccd95f
+
+[33mcommit a9d3927e17bfa84c055c353cd904fc6eb02d6771[m
+Author: Ben Butzow <ben@butzow.me>
+Date:   Mon Dec 16 18:06:38 2013 -0600
+
+    Update wallpaper app UI
+    
+    Patch set 2: Code format fixes
+    Patch set 3: Change layout names and remove whitespace
+    Patch set 4: I'm blind
+    Patch set 5: Super blind
+    Patch set 6: Fix code style issues
+    
+    Change-Id: I019dd3679288611ebe7cb326a536ffaaeba074a2
+
+[33mcommit cf90fc3247eca1d6bcf0c61569c58e5a0b71659e[m
+Author: scott <scott@ubuntu>
+Date:   Mon Feb 10 02:42:41 2014 -0500
+
+    add a few new walls thanks to skyliner
+    
+    Change-Id: I6c89aa7fe3cb537d7d6c868091227f5008ed5ae1
+    Signed-off-by: scott <scott@ubuntu>
+
+[33mcommit ab6c9e173555d89b13fd5eda8f1e8852a98003a0[m
+Author: scott <scott@ubuntu.com>
+Date:   Sat Aug 10 15:34:40 2013 -0400
+
+    Update BeanStalkPapers to mirror the CM wallpapers. (update for 4.3)
+    Signed-off-by: scott <scott@ubuntu.com>
+    
+    Change-Id: I1f14c501fb463118ae7bf01710eb698e358b12d5
+
+[33mcommit cad24f6192a49eba5132463b1acb5a5178e782f8[m
+Author: scotthartbti <scott.hart.bti@gmail.com>
+Date:   Sat Jun 15 19:23:43 2013 -0400
+
+    Update to wallpapers + 1 new wallpaper - Thanks Skyliner!
+    Signed-off-by: scotthartbti <scott.hart.bti@gmail.com>
+    
+    Change-Id: I365e2d6016cef25034878df63fdc91a804cbc556
+
+[33mcommit c831bee0605d1112b123cbbc011886074be1125c[m
+Author: scotthartbti <scott.hart.bti@gmail.com>
+Date:   Sat Mar 16 02:43:22 2013 -0400
+
+    Add new BeanPapers thanks to skyliner!
+    Signed-off-by: scotthartbti <scott.hart.bti@gmail.com>
+    
+    Change-Id: Iba6a57cae147bfb431fcfdbd566c9a9717c3c627
+
+[33mcommit f1cd935e1b3e7ffaefedfe06c9e2aa67149f18bd[m
+Author: scotthartbti <scott.hart.bti@gmail.com>
+Date:   Sat Feb 2 14:24:01 2013 -0800
+
+    Damn white spaces!  This is getting old fast...
+    Signed-off-by: scotthartbti <scott.hart.bti@gmail.com>
+
+[33mcommit 278e0e7dad1b787b04535e31f7109a37d0890405[m
+Author: scotthartbti <scott.hart.bti@gmail.com>
+Date:   Fri Feb 1 20:10:27 2013 -0800
+
+    re-center wallpaper_10 and correct typo
+    Signed-off-by: scotthartbti <scott.hart.bti@gmail.com>
+
+[33mcommit 130ed8ec750a3a17467e44202116e1bb20ad8615[m
+Author: scotthartbti <scott.hart.bti@gmail.com>
+Date:   Fri Feb 1 19:05:02 2013 -0800
+
+    Be gone white spaces!
+    Signed-off-by: scotthartbti <scott.hart.bti@gmail.com>
+
+[33mcommit 4cf0a0d5d28381f77af633fd11b66bd060f60f1f[m
+Author: scotthartbti <scott.hart.bti@gmail.com>
+Date:   Fri Feb 1 18:40:04 2013 -0800
+
+    960x800 jason!
+    Signed-off-by: scotthartbti <scott.hart.bti@gmail.com>
+
+[33mcommit b16c7ccf3e49b3d9ceeb71939910a33f3da21402[m
+Author: scotthartbti <scott.hart.bti@gmail.com>
+Date:   Fri Feb 1 17:56:26 2013 -0800
+
+    Change from PA to BeanStalk... ohhhh yes!
+    Signed-off-by: scotthartbti <scott.hart.bti@gmail.com>
+
+[33mcommit 081743c6737be51c6702a9b27463352427ba2c20[m
+Author: Paul Henschel <drcmda@gmail.com>
+Date:   Mon Dec 31 22:31:02 2012 +0100
+
+    new wall
+    
+    Change-Id: I51bf5a8bdb39e84a2a25f96ff123479f6cca2a57
+
+[33mcommit e4191b12acbb78e2901e842118bd801d8b2ca88e[m
+Author: D4rKn3sSyS <jedga_95@outlook.com>
+Date:   Sun Oct 28 08:15:34 2012 -0500
+
+    GNU license
+
+[33mcommit d5c79019897fde59877102e2627491cc9655402e[m
+Author: D4rKn3sSyS <jedga_95@outlook.com>
+Date:   Fri Sep 28 22:16:52 2012 -0500
+
+    Revert "Allow offscreen pages"
+    
+    This reverts commit d717aea1f623346e73f2de257a9171446831e3c6.
+
+[33mcommit d717aea1f623346e73f2de257a9171446831e3c6[m
+Author: Jesús David <jedga_95@outlook.com>
+Date:   Tue Sep 25 23:03:12 2012 -0500
+
+    Allow offscreen pages
+    
+    This will save us some processing, still testing though, seems not to make any harm
+    (or good) on S2
+    
+    Change-Id: I98f0f634b35d3c14c37c6649f25a3fc2c9c13e36
+
+[33mcommit 797d3def6a3ac19e4337a38f77be36f510d60a07[m
+Author: PaulHenschel <drcmda@gmail.com>
+Date:   Mon Sep 24 16:05:38 2012 +0200
+
+    icons/antialeasing
+    
+    Change-Id: I3918621a0f4c83eafbd3b57f45390ea0232ac691
+
+[33mcommit 1f2c4db380642086d080d0ad59d9896613db75f8[m
+Author: D4rKn3sSyS <jedga_95@outlook.com>
+Date:   Sun Sep 23 10:20:44 2012 -0500
+
+    Add CENTER_CROP parameter
+    
+    This avoids stretching of the wallpapers
+    
+    Change-Id: I9e3e8412adc367ef1bafbdd4d40e964ec14482f1
+
+[33mcommit e7409df49d85b758c75053b50a1b199240544f8e[m
+Author: D4rKn3sSyS <jedga_95@outlook.com>
+Date:   Sat Sep 22 18:19:18 2012 -0500
+
+    New ParanoidWallpaper app
+    
+    Also includes Solid color selection based on android design RGB Hex codes
+
+[33mcommit 18886fd86f168a2b954bb63494b94baa5e74a22b[m
+Author: D4rKn3sSyS <jedga_95@outlook.com>
+Date:   Sun Sep 9 21:45:24 2012 -0500
+
+    Rename ParanoidWallpapers package name on missing classes
+    
+    On the change from PAWallpapers to ParanoidWallpapers we missed to rename
+    files and stuff
+    
+    Change-Id: Ic27565f720799639d2ee799e195c25a03f84192c
+
+[33mcommit 025872cb28c88aa75d316c04604724f9fe47e40c[m
+Author: D4rKn3sSyS <jedga_95@outlook.com>
+Date:   Thu Sep 6 14:57:01 2012 -0500
+
+    Allow ParanoidWallpapers building
+    
+    Change-Id: I980e7c14b9f79b1d2f5b083e52ca2a9bdbb31e96
+
+[33mcommit 77fe08132acd0a9c6afc935414f4a68d8afea77c[m
+Author: root <root@drcmda-VPCSA4W9E.(none)>
+Date:   Thu Sep 6 18:47:22 2012 +0200
+
+    first commit
