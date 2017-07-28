@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Bliss" parent="android:Theme.Material.NoActionBar">
+    <style name="Theme.Citrus" parent="android:Theme.Material.NoActionBar">
 
     <item name="android:windowNoTitle">true</item>
     <!-- Main theme colors -->

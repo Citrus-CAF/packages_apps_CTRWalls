@@ -1,5 +1,4 @@
-
-package com.death2all110.blisspapers;
+package com.citrus.wallpapers;
 
 import android.content.Context;
 import android.util.Log;

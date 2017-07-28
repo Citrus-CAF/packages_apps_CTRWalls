@@ -1,6 +1,6 @@
+package com.citrus.wallpapers;
 
-package com.death2all110.blisspapers;
-
+import android.app.ActionBar;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.app.WallpaperManager;
@@ -56,16 +56,16 @@ public class Preview extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.death2all110.blisspapers.R.layout.activity_preview);
+        setContentView(com.citrus.wallpapers.R.layout.activity_preview);
 
-        //Toolbar ab = (Toolbar) findViewById(R.id.toolbar);
-        //setActionBar(ab);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
 
-        ImageView p = (ImageView) findViewById(com.death2all110.blisspapers.R.id.preView);
-        Button d = (Button) findViewById(com.death2all110.blisspapers.R.id.set_button);
-        Button s = (Button) findViewById(com.death2all110.blisspapers.R.id.save_button);
-        final ProgressBar progress = (ProgressBar) findViewById(com.death2all110.blisspapers.R.id.progress_bar);
+        ActionBar bar = getActionBar();
+        bar.setDisplayHomeAsUpEnabled(true);
+
+        ImageView p = (ImageView) findViewById(com.citrus.wallpapers.R.id.preView);
+        Button d = (Button) findViewById(com.citrus.wallpapers.R.id.set_button);
+        Button s = (Button) findViewById(com.citrus.wallpapers.R.id.save_button);
+        final ProgressBar progress = (ProgressBar) findViewById(com.citrus.wallpapers.R.id.progress_bar);
         progress.setVisibility(View.VISIBLE);
         progress.setIndeterminate(true);
 
@@ -120,10 +120,10 @@ public class Preview extends Activity {
         // I'll look into fixes later
         if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
             // this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-            setContentView(com.death2all110.blisspapers.R.layout.activity_preview_land);
+            setContentView(com.citrus.wallpapers.R.layout.activity_preview_land);
             this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                     WindowManager.LayoutParams.FLAG_FULLSCREEN);
-            ImageView v = (ImageView) findViewById(com.death2all110.blisspapers.R.id.imageView1);
+            ImageView v = (ImageView) findViewById(com.citrus.wallpapers.R.id.imageView1);
             UrlImageViewHelper.setUrlDrawable(v, link);
         }
 
@@ -137,7 +137,7 @@ public class Preview extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(com.death2all110.blisspapers.R.menu.activity_preview, menu);
+        getMenuInflater().inflate(com.citrus.wallpapers.R.menu.activity_preview, menu);
         return true;
     }
 
@@ -166,7 +166,7 @@ public class Preview extends Activity {
         switch (id) {
             case DIALOG_DOWNLOAD_PROGRESS:
                 mProgressDialog = new ProgressDialog(this);
-                mProgressDialog.setMessage(getResources().getString(com.death2all110.blisspapers.R.string.setting_wallpaper));
+                mProgressDialog.setMessage(getResources().getString(com.citrus.wallpapers.R.string.setting_wallpaper));
                 mProgressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
                 mProgressDialog.setIndeterminate(true);
                 mProgressDialog.setCancelable(true);
@@ -205,7 +205,7 @@ public class Preview extends Activity {
         @Override
         protected void onPostExecute(String result) {
             mProgressDialog.cancel();
-            Toast.makeText(getApplicationContext(), com.death2all110.blisspapers.R.string.set, Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), com.citrus.wallpapers.R.string.set, Toast.LENGTH_LONG).show();
         }
 
         protected void onProgressUpdate(String... progress) {
@@ -276,7 +276,7 @@ public class Preview extends Activity {
         protected void onPostExecute(String unused) {
             dismissDialog(DIALOG_DOWNLOAD_PROGRESS);
             Toast.makeText(getApplicationContext(),
-                    getResources().getString(com.death2all110.blisspapers.R.string.saved) + " " + getSvDir() + fileName,
+                    getResources().getString(com.citrus.wallpapers.R.string.saved) + " " + getSvDir() + fileName,
                     Toast.LENGTH_LONG).show();
         }
     }

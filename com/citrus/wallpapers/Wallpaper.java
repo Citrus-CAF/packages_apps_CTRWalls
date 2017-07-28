@@ -1,5 +1,4 @@
-
-package com.death2all110.blisspapers;
+package com.citrus.wallpapers;
 
 public class Wallpaper {
 

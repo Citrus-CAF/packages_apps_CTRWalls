@@ -1,78 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <wallpapers>
-<!--
-	Wallpapers accept:
-		url="<url of wallpaper>"  [REQUIRED]
-		name="<name of wallpaper>" 
-		thumbUrl="<url of thumbnail>"
-		author="<wallpaper author>" [REQUIRED] 
--->
 
-	<category name ="blisspop">
-	<wallpaper
-		author="Skyliner33v"
-		name="Paranoid BlissPop"
-		url="http://darkxshadows.net/blisspop/wallpapers/paranoid_blisspop.jpg" />
+    <category name="CITRUS" >
 
-	<wallpaper
-		author="Skyliner33v"
-		name="Bliss Material 1"
-		url="http://darkxshadows.net/blisspop/wallpapers/bliss_material_wall_1.png" />
+        <wallpaper
+            name="Citrus Splash 1"
+            author="Customworx"
+            url="https://image.ibb.co/niZ2h5/wall01.png" />
 
-	<wallpaper
-		author="Skyliner33v"
-		name="Bliss Material 2"
-		url="http://darkxshadows.net/blisspop/wallpapers/bliss_material_wall_2.png" />
+        <wallpaper
+            name="Citrus Splash 2"
+            author="Customworx"
+            url="https://image.ibb.co/jiKzvQ/wall02.png" />
 
-	<wallpaper
-		author="Skyliner33v"
-		name="Bliss Material 3"
-		url="http://aokp.co/wallpapers/bliss_material_wall_3.png"/>
+        <wallpaper
+            name="Citrus Splash 3"
+            author="Customworx"
+            url="https://image.ibb.co/j80Tpk/wall03.png" />
 
-	<wallpaper
-		author="electrikjesus"
-		name="Dark Bliss 1"
-		url="http://i.imgur.com/8k7V1SY.jpg"/>
+        <wallpaper
+            name="Citrus Splash 4"
+            author="Customworx"
+            url="https://image.ibb.co/kOrCFQ/wall04.png" />
 
-	<wallpaper
-		author="electrikjesus"
-		name="Flat Bliss 1"
-		url="http://i.imgur.com/U5H38R3.jpg"/>
+        <wallpaper
+            name="Citrus Ocean 1"
+            author="David Di Battista"
+            url="https://image.ibb.co/dFk6s5/wall05.jpg" />
 
-	<wallpaper
-		author="electrikjesus"
-		name="Flat Bliss 2"
-		url="http://i.imgur.com/MEYEUdM.jpg"/>
+        <wallpaper
+            name="Citrus Ocean 2"
+            author="David Di Battista"
+            url="https://image.ibb.co/c48WQQ/wall06.jpg" />
 
-	<wallpaper
-		author="electrikjesus"
-		name="Flat Bliss 3"
-		url="http://i.imgur.com/ejXZh8M.jpg"/>
+        <wallpaper
+            name="Citrus Madness! 1"
+            author="Savio"
+            url="https://image.ibb.co/ezVpC5/wall07.png" />
 
-	<wallpaper
-		author="electrikjesus"
-		name="Flat Bliss 3D"
-		url="http://i.imgur.com/pFvqluY.jpg"/>
+        <wallpaper
+            name="Citrus Madness 2"
+            author="Savio"
+            url="https://image.ibb.co/ggQZek/wall08.jpg" />
 
-	<wallpaper
-		author="electrikjesus"
-		name="Low Poly Bliss 1"
-		url="http://i.imgur.com/yQ2Jvuj.jpg"/>
+        <wallpaper
+            name="Citrus Mountain"
+            author="JP Kenji"
+            url="https://image.ibb.co/mqDLKk/wall09.jpg" />
 
-	<wallpaper
-		author="electrikjesus"
-		name="Low Poly Bliss 2"
-		url="http://i.imgur.com/vYWjfwk.jpg"/>
+        <wallpaper
+            name="Citrussss"
+            author="Ajay"
+            url="https://image.ibb.co/ifnQkQ/wall10.png" />
+    </category>
 
-	<wallpaper
-		author="electrikjesus"
-		name="Low Poly Bliss 3"
-		url="http://i.imgur.com/JoNH7md.jpg"/>
-
-	<wallpaper
-		author="electrikjesus"
-		name="Low Poly Bliss 3D"
-		url="http://i.imgur.com/4cwyC54.jpg"/>
-
-	</category>
 </wallpapers>

@@ -1,5 +1,4 @@
-
-package com.death2all110.blisspapers;
+package com.citrus.wallpapers;
 
 import android.content.Context;
 import android.database.DataSetObserver;
@@ -28,7 +27,7 @@ public class NavigationBarCategoryAdapater implements SpinnerAdapter {
 
         mCategories = cats;
     }
-    
+
     public ArrayList<WallpaperCategory> getCategories() {
         return mCategories;
     }

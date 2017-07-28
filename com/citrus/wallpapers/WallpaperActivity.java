@@ -1,5 +1,4 @@
-
-package com.death2all110.blisspapers;
+package com.citrus.wallpapers;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -40,7 +39,7 @@ import java.util.ArrayList;
 
 public class WallpaperActivity extends Activity {
 
-    public final String TAG = "BlissPapers";
+    public final String TAG = "CTRWalls";
     protected static final String MANIFEST = "wallpaper_manifest.xml";
     protected static final int THUMBS_TO_SHOW = 4;
 
@@ -74,7 +73,7 @@ public class WallpaperActivity extends Activity {
         mLoadingDialog.show();
         new LoadWallpaperManifest().execute();
 
-        UrlImageViewHelper.setErrorDrawable(getResources().getDrawable(com.death2all110.blisspapers.R.drawable.ic_error));
+        UrlImageViewHelper.setErrorDrawable(getResources().getDrawable(com.citrus.wallpapers.R.drawable.ic_error));
 
     }
 
@@ -128,17 +127,17 @@ public class WallpaperActivity extends Activity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
 
-            mView = inflater.inflate(com.death2all110.blisspapers.R.layout.activity_wallpaper, container, false);
+            mView = inflater.inflate(com.citrus.wallpapers.R.layout.activity_wallpaper, container, false);
 
-            back = (ImageButton) mView.findViewById(com.death2all110.blisspapers.R.id.backButton);
-            next = (ImageButton) mView.findViewById(com.death2all110.blisspapers.R.id.nextButton);
-            pageNum = (TextView) mView.findViewById(com.death2all110.blisspapers.R.id.textView1);
+            back = (ImageButton) mView.findViewById(com.citrus.wallpapers.R.id.backButton);
+            next = (ImageButton) mView.findViewById(com.citrus.wallpapers.R.id.nextButton);
+            pageNum = (TextView) mView.findViewById(com.citrus.wallpapers.R.id.textView1);
 
             thumbs = new ThumbnailView[THUMBS_TO_SHOW];
-            thumbs[0] = (ThumbnailView) mView.findViewById(com.death2all110.blisspapers.R.id.imageView1);
-            thumbs[1] = (ThumbnailView) mView.findViewById(com.death2all110.blisspapers.R.id.imageView2);
-            thumbs[2] = (ThumbnailView) mView.findViewById(com.death2all110.blisspapers.R.id.imageView3);
-            thumbs[3] = (ThumbnailView) mView.findViewById(com.death2all110.blisspapers.R.id.imageView4);
+            thumbs[0] = (ThumbnailView) mView.findViewById(com.citrus.wallpapers.R.id.imageView1);
+            thumbs[1] = (ThumbnailView) mView.findViewById(com.citrus.wallpapers.R.id.imageView2);
+            thumbs[2] = (ThumbnailView) mView.findViewById(com.citrus.wallpapers.R.id.imageView3);
+            thumbs[3] = (ThumbnailView) mView.findViewById(com.citrus.wallpapers.R.id.imageView4);
 
 
 
@@ -186,7 +185,7 @@ public class WallpaperActivity extends Activity {
                 thumbs[i].getName().setText(w.getName());
                 thumbs[i].getAuthor().setText(w.getAuthor());
                 UrlImageViewHelper.setUrlDrawable(thumbs[i].getThumbnail(), w.getThumbUrl(),
-                        com.death2all110.blisspapers.R.drawable.ic_placeholder, new ThumbnailCallBack(w, realIndex));
+                        com.citrus.wallpapers.R.drawable.ic_placeholder, new ThumbnailCallBack(w, realIndex));
             }
 
             back.setEnabled(currentPage != 0);
@@ -195,13 +194,13 @@ public class WallpaperActivity extends Activity {
 
         public void next() {
             getNextButton().setEnabled(false);
-            pageNum.setText(getResources().getString(com.death2all110.blisspapers.R.string.page) + " " + (++currentPage + 1));
+            pageNum.setText(getResources().getString(com.citrus.wallpapers.R.string.page) + " " + (++currentPage + 1));
 
             setThumbs();
         }
 
         public void previous() {
-            pageNum.setText(getResources().getString(com.death2all110.blisspapers.R.string.page) + " " + (--currentPage + 1));
+            pageNum.setText(getResources().getString(com.citrus.wallpapers.R.string.page) + " " + (--currentPage + 1));
 
             setThumbs();
         }
@@ -264,7 +263,7 @@ public class WallpaperActivity extends Activity {
 
         public boolean onOptionsItemSelected(MenuItem item) {
             switch (item.getItemId()) {
-                case com.death2all110.blisspapers.R.id.jump:
+                case com.citrus.wallpapers.R.id.jump:
                     jumpTo();
                     return true;
                 default:
@@ -292,7 +291,7 @@ public class WallpaperActivity extends Activity {
                             new ThumbnailClickListener(wall));
                 }
                 getThumbView(relativeIndex).setVisibility(View.VISIBLE);
-                
+
                 if (relativeIndex == 3)
                     getNextButton().setEnabled(true);
             }
@@ -317,7 +316,7 @@ public class WallpaperActivity extends Activity {
 
 
     public static String getDlDir(Context c) {
-        String configFolder = getResourceString(c, com.death2all110.blisspapers.R.string.config_wallpaper_download_loc);
+        String configFolder = getResourceString(c, com.citrus.wallpapers.R.string.config_wallpaper_download_loc);
         if (configFolder != null && !configFolder.isEmpty()) {
             return new File(Environment.getExternalStorageDirectory(), configFolder)
                     .getAbsolutePath() + "/";
@@ -327,7 +326,7 @@ public class WallpaperActivity extends Activity {
     }
 
     public static String getSvDir(Context c) {
-        String configFolder = getResourceString(c, com.death2all110.blisspapers.R.string.config_wallpaper_sdcard_dl_location);
+        String configFolder = getResourceString(c, com.citrus.wallpapers.R.string.config_wallpaper_sdcard_dl_location);
         if (configFolder != null && !configFolder.isEmpty()) {
             return new File(Environment.getExternalStorageDirectory(), configFolder)
                     .getAbsolutePath() + "/";
@@ -337,7 +336,7 @@ public class WallpaperActivity extends Activity {
     }
 
     protected String getWallpaperDestinationPath() {
-        String configFolder = getResourceString(com.death2all110.blisspapers.R.string.config_wallpaper_sdcard_dl_location);
+        String configFolder = getResourceString(com.citrus.wallpapers.R.string.config_wallpaper_sdcard_dl_location);
         if (configFolder != null && !configFolder.isEmpty()) {
             return new File(Environment.getExternalStorageDirectory(), configFolder)
                     .getAbsolutePath();
@@ -367,7 +366,7 @@ public class WallpaperActivity extends Activity {
                     input = getApplicationContext().getAssets().open(MANIFEST);
 
                 } else {
-                    URL url = new URL(getResourceString(com.death2all110.blisspapers.R.string.config_wallpaper_manifest_url));
+                    URL url = new URL(getResourceString(com.citrus.wallpapers.R.string.config_wallpaper_manifest_url));
                     URLConnection connection = url.openConnection();
                     connection.connect();
 
