@@ -58,9 +58,12 @@ public class Preview extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(com.citrus.wallpapers.R.layout.activity_preview);
 
+        Toolbar ab = (Toolbar) findViewById(R.id.toolbar);
+        if (ab != null) {
+            setActionBar(ab);
+            getActionBar().setDisplayHomeAsUpEnabled(true);
+        }
 
-        ActionBar bar = getActionBar();
-        bar.setDisplayHomeAsUpEnabled(true);
 
         ImageView p = (ImageView) findViewById(com.citrus.wallpapers.R.id.preView);
         Button d = (Button) findViewById(com.citrus.wallpapers.R.id.set_button);

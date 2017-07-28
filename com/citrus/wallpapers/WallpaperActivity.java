@@ -85,8 +85,10 @@ public class WallpaperActivity extends Activity {
 
     protected void loadPreviewFragment() {
 
-        //Toolbar ab = (Toolbar) findViewById(R.id.toolbar);
-        //setActionBar(ab);
+        Toolbar ab = (Toolbar) findViewById(R.id.toolbar);
+        if (ab != null) {
+            setActionBar(ab);
+        }
 
         WallpaperPreviewFragment fragment = new WallpaperPreviewFragment();
         FragmentManager fragmentManager = getFragmentManager();
